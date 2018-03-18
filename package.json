@@ -1,8 +1,8 @@
 {
     "name": "vscode-todotxt",
     "displayName": "vscode-todotxt",
-    "description": "Just syntax highlighting.",
-    "version": "0.1.1",
+    "description": "Just syntax highlighting. (WIP)",
+    "version": "0.1.2",
     "publisher": "dunstontc",
     "repository": {
 		"type": "git",
@@ -23,7 +23,7 @@
         }],
         "grammars": [{
             "language": "todo",
-            "scopeName": "todo",
+            "scopeName": "source.todo",
             "path": "./syntaxes/todo.tmLanguage.json"
         }]
     }

@@ -10,7 +10,7 @@
     },
     {
 			"include": "#strings"
-		}
+    }
 	],
 	"repository": {
     "dates": {
@@ -18,36 +18,51 @@
 				{
 					"name": "constant.numeric.date.todo",
 					"match": "([0-9]{4}-[0-9]{2}-[0-9]{2})"
-				}
+        }
 			]
     },
     "variables": {
 			"patterns": [
 				{
 					"name": "variable.context.todo",
-					"match": "\b(\\+[a-zA-Z0])"
+					"match": "( \\+[a-zA-Z0-9_-]+)"
 				},
         {
           "name": "variable.project.todo",
-          "match": "\b(@[a-zA-Z0])"
+          "match": "( @[a-zA-Z0-9_-]+)"
         },
         {
           "name": "variable.misc.todo",
-          "match": "(TODO)"
+          "match": "([a-zA-Z0-9]+:[a-zA-Z0-9_-]+)"
+        },
+        {
+          "name": "variable.priority.todo",
+          "match": "(\\([A-Z]\\))"
         }
 			]
     },
-		"strings": {
+    "strings": {
+			"patterns": [
+				{
+					"include": "#qstring-single"
+				},
+				{
+					"include": "#qstring-double"
+				}
+			]
+		},
+		"qstring-double": {
 			"name": "string.quoted.double.todo",
 			"begin": "\"",
 			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.todo",
-					"match": "\\\\."
-				}
-			]
+			"patterns": []
+		},
+		"qstring-single": {
+			"name": "string.quoted.single.todo",
+			"begin": "'",
+			"end": "'",
+			"patterns": []
 		}
 	},
-	"scopeName": "todo"
+	"scopeName": "source.todo"
 }
