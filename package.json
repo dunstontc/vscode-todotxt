@@ -1,8 +1,8 @@
 {
     "name": "vscode-todotxt",
     "displayName": "vscode-todotxt",
-    "description": "Syntax Highlighting for todo.txt & done.txt files.",
-    "version": "0.0.2",
+    "description": "Just syntax highlighting.",
+    "version": "0.1.0",
     "publisher": "dunstontc",
     "repository": {
 		"type": "git",
