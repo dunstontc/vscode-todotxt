@@ -1,0 +1,1 @@
+(A) 2018-03-17 Figure out how to disable language support for normal ".txt" files. +vscode-todotxt

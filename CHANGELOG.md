@@ -1,7 +1,6 @@
 # Change Log
 All notable changes to the "vscode-todotxt" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-- Initial release
+## 0.0.x
+- TESTS.
+- I wouldn't call this unstable, but won't claim that it works yet either.
