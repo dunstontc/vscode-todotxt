@@ -5,6 +5,7 @@
 ## Features
 - Just syntax highlighting.
 - Seems to me there's already a plugin that adds features supporting todo.txt files ([rarnoldmobile/todo-txt](https://github.com/rarnoldmobile/todo-txt))
+- *Maybe some bugs?* 🐛  (It's still a work in progress)
 
 ## [License](https://github.com/dunstontc/vscode-todotxt/blob/master/LICENSE)
 

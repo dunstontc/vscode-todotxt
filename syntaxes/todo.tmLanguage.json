@@ -3,19 +3,21 @@
 	"name": "todo",
 	"patterns": [
 		{
-			"include": "#keywords"
+			"include": "#dates"
 		},
 		{
 			"include": "#strings"
 		}
 	],
 	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.todo",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
+    "dates": {
+			"patterns": [
+				{
+					"name": "constant.numeric.date.todo",
+					"match": "([0-9]{4}-[0-9]{2}-[0-9]{2})"
+				}
+			]
+    },
 		"strings": {
 			"name": "string.quoted.double.todo",
 			"begin": "\"",
