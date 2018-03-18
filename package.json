@@ -1,0 +1,30 @@
+{
+    "name": "vscode-todotxt",
+    "displayName": "vscode-todotxt",
+    "description": "Syntax Highlighting for todo.txt & done.txt files.",
+    "version": "0.0.1",
+    "publisher": "dunstontc",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/dunstontc/vscode-todotxt.git"
+	},
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "todo",
+            "aliases": ["todo", "todo"],
+            "extensions": ["todo.txt","done.txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "todo",
+            "scopeName": "todo",
+            "path": "./syntaxes/todo.tmLanguage.json"
+        }]
+    }
+}
