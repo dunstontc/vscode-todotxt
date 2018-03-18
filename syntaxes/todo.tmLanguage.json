@@ -25,11 +25,11 @@
 			"patterns": [
 				{
 					"name": "variable.context.todo",
-					"match": "(?:\b\+)([a-zA-Z0])"
+					"match": "\b(\+[a-zA-Z0])"
 				},
         {
           "name": "variable.project.todo",
-          "match": "(?:\b@)([a-zA-Z0])"
+          "match": "\b(@[a-zA-Z0])"
         },
         {
           "name": "variable.misc.todo",
