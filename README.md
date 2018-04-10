@@ -4,14 +4,16 @@
 
 ## Features
 - Just syntax highlighting for [todo.txt](https://github.com/todotxt/todo.txt) files.
-- Seems to me there's already a plugin that adds features supporting todo.txt files ([rarnoldmobile/todo-txt](https://github.com/rarnoldmobile/todo-txt))
+- Seems to me there's already a plugin that adds actual features supporting todo.txt files ([rarnoldmobile/todo-txt](https://github.com/rarnoldmobile/todo-txt))
 - *Maybe some bugs?* 🐛  (It's still a work in progress)
 
 ## Highlights
+- Done
 - Priority
 - Date
 - Context
 - Project
+- Key:Value Metadata
 - *Strings* (not officially supported)
 
 ## [License](https://github.com/dunstontc/vscode-todotxt/blob/master/LICENSE)
