@@ -25,7 +25,7 @@
         {
           "begin": "(^x)",
           "end": "$",
-          "name": "meta.done.todo",
+          "name": "comment.line.done.todo",
           "patterns": [
             {
               "include": "#date"
