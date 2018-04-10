@@ -4,15 +4,6 @@
   "scopeName": "source.todo",
   "patterns": [
     {
-      "include": "#date"
-    },
-    {
-      "include": "#strings"
-    },
-    {
-      "include": "#variable"
-    },
-    {
       "include": "#meta"
     },
     {
@@ -25,7 +16,21 @@
         {
           "begin": "(^x)",
           "end": "$",
-          "name": "comment.line.done.todo",
+          "name": "comment.line.done.todo"
+        }
+      ]
+    },
+    "priority": {
+      "patterns": [
+        {
+          "begin": "^([0-9]{4}-[0-9]{2}-[0-9]{2})",
+          "beginCaptures": {
+            "1": {
+              "name": "constant.numeric.date.todo"
+            }
+          },
+          "end": "($)",
+          "name": "meta.priority.none.todo",
           "patterns": [
             {
               "include": "#date"
@@ -38,13 +43,6 @@
             }
           ]
         },
-        {
-          "include": "#priority"
-        }
-      ]
-    },
-    "priority": {
-      "patterns": [
         {
           "begin": "^(\\()([aA])(\\))",
           "beginCaptures": {

@@ -2,7 +2,7 @@
   "name": "vscode-todotxt",
   "displayName": "vscode-todotxt",
   "description": "Just syntax highlighting. (WIP)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "dunstontc",
   "repository": {
     "type": "git",
