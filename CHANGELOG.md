@@ -1,10 +1,10 @@
 # Change Log
 All notable changes to the "vscode-todotxt" extension will be documented in this file.
 
-## 0.1.3
+## 1.0.0
 - Cleaned language configuration.
-- Added logo image.
-- General improvements.
+- Added logo.
+- Implemented all highlight groups.
 
 ## 0.1.x
 - TESTS.
