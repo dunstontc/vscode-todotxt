@@ -12,7 +12,7 @@ const makeScope = (letter) => {
       "3": { "name": "punctuation.definition.priority.todo" },
     },
     "end": "($)",
-    "name": `meta.item.priority.${letter}.todo`,
+    "name": `meta.priority.${letter}.todo`,
     "patterns": [
       { "include": "#date" },
       { "include": "#strings" },

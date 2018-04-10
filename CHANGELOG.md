@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "vscode-todotxt" extension will be documented in this file.
 
+## 1.0.1
+- Made sure highlight works on todos without a priority.
+
 ## 1.0.0
 - Cleaned language configuration.
 - Added logo.
