@@ -766,7 +766,7 @@
               "name": "variable.other.project.todo"
             }
           },
-          "match": "\\s([+])([a-zA-Z0-9_-]+)"
+          "match": "\\s([+])([^:\\s]+\\b)"
         },
         {
           "captures": {
@@ -777,7 +777,7 @@
               "name": "variable.context.todo"
             }
           },
-          "match": "\\s([@])([a-zA-Z0-9_-]+)"
+          "match": "\\s([@])([^:\\s]+\\b)"
         },
         {
           "captures": {
@@ -791,7 +791,7 @@
               "name": "variable.other.key-value.todo"
             }
           },
-          "match": "([a-zA-Z0-9]+)(:)([a-zA-Z0-9_-]+)"
+          "match": "([a-zA-Z0-9]+)(:)([^:\\s]+\\b)"
         },
         {
           "captures": {
@@ -816,6 +816,9 @@
         },
         {
           "include": "#qstring-double"
+        },
+        {
+          "include": "#qstring-backtick"
         }
       ]
     },
@@ -829,6 +832,12 @@
       "name": "string.quoted.single.todo",
       "begin": "'",
       "end": "'",
+      "patterns": []
+    },
+    "qstring-backtick": {
+      "name": "string.quoted.backtick.todo",
+      "begin": "`",
+      "end": "`",
       "patterns": []
     }
   }

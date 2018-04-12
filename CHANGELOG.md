@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to the "vscode-todotxt" extension will be documented in this file.
 
+## 1.0.3
+- Added highlight for backtick strings.
+- Improved variable highlighting.
+
 ## 1.0.2
 - Made priority for todos without a priority.
 
