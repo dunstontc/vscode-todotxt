@@ -1,5 +1,7 @@
 # Change Log
 
+## 1.0.5
+- Updated logo.
 
 ## 1.0.4
 - Updated description.
