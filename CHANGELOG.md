@@ -1,5 +1,9 @@
 # Change Log
-All notable changes to the "vscode-todotxt" extension will be documented in this file.
+
+
+## 1.0.4
+- Updated description.
+- Updated banner color.
 
 ## 1.0.3
 - Added highlight for backtick strings.

@@ -1,8 +1,8 @@
 {
   "name": "vscode-todotxt",
   "displayName": "vscode-todotxt-syntax",
-  "description": "Just syntax highlighting.",
-  "version": "1.0.3",
+  "description": "Syntax highlighting for todo.txt files.",
+  "version": "1.0.4",
   "publisher": "dunstontc",
   "repository": {
     "type": "git",
@@ -11,13 +11,11 @@
   "engines": { "vscode": "^1.21.0" },
   "categories": ["Programming Languages"],
   "galleryBanner": {
-    "color": "#608b4e",
+    "color": "#1e1e1e",
     "theme": "dark"
   },
   "icon": "assets/logo.png",
-  "scripts": {
-    "build": "json5 ./src/todo.tmLanguage.json5 -o ./syntaxes/todo.tmLanguage.json -s 2;"
-  },
+  "scripts": {"build": "json5 ./src/todo.tmLanguage.json5 -o ./syntaxes/todo.tmLanguage.json -s 2;"},
   "contributes": {
     "languages": [{
       "id": "todo",
